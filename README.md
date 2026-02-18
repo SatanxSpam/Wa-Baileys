@@ -1,4 +1,4 @@
-# Modified Whatsapp-API
+# XSPAM Modified Whatsapp-API
 <p align='center'>
   <img src="https://files.catbox.moe/xm27c7.png" width="172">
 </p>
@@ -8,7 +8,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:qwerty-xcv/Baileys"
+  "@whiskeysockets/baileys": "github:SatanxSpam/Wa-Baileys"
 }
 ```
 ## Import
@@ -47,7 +47,7 @@ const client = makeWASocket({
   // Other options
 });
 
-const number = "628XXXXX";
+const number = "20XXXXX";
 const code = await client.requestPairingCode(number.trim) /* Use : (number, "YYYYYYYY") for custom-pairing */
 
 console.log("Ur pairing code : " + code)
@@ -113,4 +113,4 @@ await client.relayMessage(m.chat, {
   }
 })
 ```
-Follow https://t.me/TenkaWaBails kalau mau liat type message yg lain :v
+# Thank you for using my Baylis
